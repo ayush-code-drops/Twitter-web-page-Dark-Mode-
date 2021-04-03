@@ -1,0 +1,182 @@
+body {
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.border-box {
+    border: 1px solid red;
+}
+
+#outer-box {
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+}
+
+#left-box {
+    width: 20%;
+}
+
+#middle-box {
+    width: 50%;
+}
+
+#right-box {
+    width: 30%;
+}
+
+h1 {
+    color: red;
+}
+
+#logo-icon {
+    font-size: 32px;
+    color: #2196F3;
+}
+
+.left-nav {
+    display: flex;
+    margin-top: 16px;
+}
+
+.nav-icon {
+    margin-right: 20px;
+}
+
+.nav-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.horz-display {
+    display: flex;
+}
+
+#left-arrow-box {
+    width: 10%;
+}
+
+#name-box {
+    width: 70%;
+}
+
+#follow-box {
+    width: 20%;
+}
+
+#following {
+    background-color: rgb(224 36 94);
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.follow-button {
+    width: 100%;
+    border-radius: 12px;
+    color: rgb(224 36 94);
+    padding: 8px;
+    border: 1px solid rgb(224 36 94);
+    background-color: black;
+}
+
+h3,
+p,
+h4 {
+    margin: 0;
+}
+
+#logo-img {
+    font-size: 32px;
+
+}
+
+.blue-icon {
+    color: rgb(224 36 94);
+}
+
+.tweet-box {
+    padding: 4px;
+    border: 1px solid #eeeeee80;
+}
+
+.tweet-img {
+    width: 10%;
+}
+
+.tweet-cont {
+    width: 90%;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.bold-span {
+    font-weight: bold;
+}
+
+.light-span,
+.icon-text {
+    color: #9E9E9E;
+}
+
+li {
+    font-size: 14px;
+}
+
+.t-icon-box {
+    width: 25%;
+}
+
+.small-icon {
+    font-size: 16px;
+}
+
+.icon-text {
+    font-size: 14px;
+    margin-left: 12px;
+}
+
+#happening-box,
+#topics-box {
+    background-color:rgb(22 24 28);
+    border-radius: 10px;
+}
+
+.happening-item,
+.topic-item {
+    border-top: 1px solid #eeeeee80;
+    padding: 10px;
+}
+
+.small-text {
+    font-size: 12px;
+    color: grey;
+}
+
+.happening-content {
+    width: 80%;
+}
+
+.happening-image {
+    width: 20%;
+}
+
+.button-box {
+    width: 20%;
+}
+
+.topic-box {
+    width: 70%;
+}
+
+.cross-box {
+    width: 10%;
+    padding-left: 4px;
+    padding-top: 4px;
+}
